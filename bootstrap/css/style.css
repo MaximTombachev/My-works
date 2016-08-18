@@ -1,5 +1,5 @@
 body{
-    font:16px Arial,Verdana,Tahoma,sans-serif;
+    font:16px "RalewayRegular", sans-serif;;
     min-width:320px;
 }
 
@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5{
 }
 
 .btn-md{
-    padding:18px 46px 18px 82px;
+    padding:18px 46px 18px 47px;
 }
 
 .btn-lg{
@@ -74,7 +74,7 @@ nav{
     text-transform: uppercase;
     text-decoration: none;
     font-size:14px;
-    font-weight:bold;
+    font-family: 'RalewayBold', sans-serif;
 }
 
 .menu li a:hover{
@@ -101,6 +101,7 @@ nav{
 
 .title-block h1{
    font-size: 50px;
+    font-family: 'RalewayBold', sans-serif;
     margin-bottom: 44px;
 }
 
@@ -125,7 +126,7 @@ nav{
 .param-block h3{
     color:#2d3033;
     font-size:14px;
-    font-weight:bold;
+    font-family: "RalewayBold", sans-serif;
 }
 .p0{
     padding:0;
@@ -164,6 +165,8 @@ nav{
     font-size:22px;
     color:#2d3033;
     margin-bottom:14px;
+    font-family: "RalewayRegular", sans-serif;
+    text-transform: capitalize;
 }
 
 .team-block span{
@@ -190,11 +193,13 @@ nav{
     margin-bottom:16px;
     font-size:24px;
     color:#090909;
+    text-transform: capitalize;
 }
 
 .download-block p{
     margin-bottom:40px;
     text-transform: uppercase;
+    font-family: "RalewayBold", sans-serif;
 }
 /*footer*/
 footer{
@@ -207,6 +212,7 @@ footer{
 
 .footer-item h4{
     color:#fff;
+    font-family: "RalewayBold", sans-serif;
 }
 
 .footer-item p{
