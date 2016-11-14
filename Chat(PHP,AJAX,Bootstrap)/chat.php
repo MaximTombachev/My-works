@@ -56,6 +56,9 @@
                 url:"register.php",
                 data:frm
             }).done(function(info){
+                $("#message").val("");
+                var nextStr = $("#conversation").prop("scrollHeight");
+                $("#conversation").scrollTop(nextStr);
                 console.log(info);
             })  
         });
@@ -68,6 +71,8 @@
             }).done(function(info){
                 $("#conversation").html(info);
                 $("#conversation p:last-child").css({"background-color":"lightgreen","padding-bottom":"20px"});
+                var nextStr = $("#conversation").prop("scrollHeight");
+                $("#conversation").scrollTop(nextStr);
             });
         }
     </script>
