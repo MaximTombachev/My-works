@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.less">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/listing.less">
+    <link rel="stylesheet" href="style/listing.css">
+    <link rel="stylesheet" href="style/good.less">
+    <link rel="stylesheet" href="style/good.css">
+     <link rel="stylesheet" href="media/media.css">
+    <link rel="stylesheet" href="media/media.less">
+    <link rel="stylesheet" href="plugins/jquery.bxslider.css">
+     <script src='js/jquery-3.1.1.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src='plugins/jquery.bxslider.min.js'></script>
+    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class='top-block'>
+      <div class='top-block__inner'>
+          <ul class='social-icons'>
+              <li class='social-icons__item'><a href="#" class='social-icons__link'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M15.8,21.5h1.1l0.5-.2a0.8,0.8,0,0,0,.1-0.5s0-1.4.6-1.6,1.5,1.4,2.4,2a1.7,1.7,0,0,0,1.2.4H24s1.2-.1.6-1a7.9,7.9,0,0,0-1.7-2c-1.4-1.3-1.3-1.1.5-3.5s1.5-2.3,1.4-2.7a1,1,0,0,0-.9-0.3h-3l-0.2.3a15.4,15.4,0,0,1-1,2.1c-1.2,2-1.7,2.1-1.8,2s-0.3-1.2-.3-1.8,0.3-2.8-.6-3H15.6a5.7,5.7,0,0,0-2.2.2c-0.3.1-.5,0.5-0.4,0.5a1.2,1.2,0,0,1,.8.4,2.6,2.6,0,0,1,.3,1.2s0.2,2.3-.4,2.6-0.9-.2-1.9-2a16.9,16.9,0,0,1-.9-2l-0.2-.3L10.2,12H7.7l-0.5.2a0.5,0.5,0,0,0,0,.4s2,4.6,4.2,6.9a6.1,6.1,0,0,0,4.4,2h0Z"></path></svg>
+              </a></li>
+              <li class='social-icons__item'><a href="#" class='social-icons__link'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16.6,23.8V16.1h2.5l0.4-2.9H16.6V11.3a1.2,1.2,0,0,1,1.5-1.4h1.5V7.2H17.3A3.6,3.6,0,0,0,13.5,11v2.2H11v2.9h2.6v7.6h3.1Z"></path></svg>
+              </a></li>
+              <li class='social-icons__item'><a href="#" class='social-icons__link'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16,9.4h3.2l1.5,0.3a2.7,2.7,0,0,1,1.5,1.5,4.4,4.4,0,0,1,.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2a4.4,4.4,0,0,1-.3,1.5,2.7,2.7,0,0,1-1.5,1.5l-1.5.3H12.8l-1.5-.3a2.7,2.7,0,0,1-1.5-1.5,4.4,4.4,0,0,1-.3-1.5c0-.8,0-1.1,0-3.2s0-2.4,0-3.2a4.4,4.4,0,0,1,.3-1.5,2.7,2.7,0,0,1,1.5-1.5l1.5-.3H16M16,8H12.7a5.9,5.9,0,0,0-1.9.4,4.1,4.1,0,0,0-2.3,2.3A5.9,5.9,0,0,0,8,12.7c0,0.8,0,1.1,0,3.3s0,2.5.1,3.3a5.9,5.9,0,0,0,.4,1.9,4.1,4.1,0,0,0,2.3,2.3,5.9,5.9,0,0,0,1.9.4h6.6a5.9,5.9,0,0,0,1.9-.4,4.1,4.1,0,0,0,2.3-2.3,5.9,5.9,0,0,0,.4-1.9c0-.8,0-1.1,0-3.3s0-2.4,0-3.3a5.9,5.9,0,0,0-.4-1.9,4.1,4.1,0,0,0-2.3-2.3A5.9,5.9,0,0,0,19.3,8H16Z"></path><path d="M16,11.9A4.1,4.1,0,1,0,20.1,16,4.1,4.1,0,0,0,16,11.9h0Zm0,6.8A2.7,2.7,0,1,1,18.7,16h0A2.7,2.7,0,0,1,16,18.7Z"></path><circle cx="20.3" cy="11.7" r="1"></circle></svg>
+              </a></li>
+          </ul>
+          <div class='button-group'>
+              <a href='#' class='btn btn_navy'>Registration</a>
+              <a href='#' class='btn btn_navy'>Log in</a>
+          </div>
+        </div>
+  </div>
+   <div class='wrapper'>
+        <div class='header'>
+            <div class='header-top'>
+                <div class="header-logo">
+                    <a href='#' class='header-logo__link'>
+                        <img src='img/Logo1.png' class='header-logo__img'>
+                    </a>
+                    <span class='header-logo__name'>Electronics</span>
+                </div>
+                <div class="header-address">
+                   <div class='header-address__top'>
+                    <a href='#' class='header-address__phone'>+7 495 4754444</a>
+                    <a href="#" class='btn btn_orange'>Contact us</a>
+                    </div>
+                    
+                    <div class='header-address__bottom'>
+                    <span class='header-address__street'>Novoslobodskay 2,Moscow</span>
+                    </div>
+                </div>
+                <div class="header-basket">
+                   <div class='header-basket__inner'>
+                        <span class='header-basket__basket'>Basket is empty<br/>Add items.</span>
+                    </div>
+                </div>
+                <div class="hidden-basket">
+                    <span class="hidden-basket__amount">1</span>
+                </div>
+            </div>
+            <!--меню-->
+            <div class='menu-wrapper'>
+                <nav class='menu-wrapper__nav'>
+                    <div class="menu-sandwich">
+                        <span class='menu-sandwich__line top'></span>
+                       <span class='menu-sandwich__line middle'></span>
+                       <span class='menu-sandwich__line bottom'></span>
+                   </div> 
+                    <ul class='menu-list'>
+                      <li class="menu-list__item"><a href="#" class="menu-list__link menu-list__link_active">About us</a></li>
+                      <li class="menu-list__item"><a href="#" class="menu-list__link">Discounts</a></li>
+                      <li class="menu-list__item"><a href="#" class="menu-list__link">News</a></li>
+                      <li class="menu-list__item"><a href="#" class="menu-list__link">Shipping</a></li>
+                      <li class="menu-list__item"><a href="#" class="menu-list__link">Payment</a></li>
+                      <li class="menu-list__item"><a href="" class="menu-list__link">Brands</a></li>
+                      <li class="menu-list__item"><a href="" class="menu-list__link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class='menu-wrapper__search'>
+                    <input type="text" placeholder="search">
+                </div>
+         </div>    
+        </div>
+       
+      <section class='content-bottom'>
+            <a href='#' class='content-bottom__block'>Electronics<br/>Computers</a>
+            <a href='#' class='content-bottom__block'>Cell phones<br/>Tablets</a>
+            <a href='#' class='content-bottom__block'>Cameras</a>
+        </section>
+        
+        <div class='main-content main-content-goods clearfix'>
+         <aside>
+            <div class='aside-menu'>
+               <span class="title">Electronics</span>
+                <ul class="aside-menu__block">
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics
+                    <ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul>
+                    </a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics<ul class="aside-dropdown">
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                        <li class="aside-dropdown__item"><a href="#" class="aside-dropdown__link">Electronics</a></li>
+                    </ul></a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                </ul>
+            </div>
+            <div class='aside-menu'>
+               <span class="title">Computers</span>
+              
+                <ul class="aside-menu__block">
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electonics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                </ul>
+            </div>
+            <div class='aside-menu'>
+               <span class="title">Cameras</span>
+                <ul class="aside-menu__block">
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                    <li class="aside-menu__item"><a href="#" class="aside-menu__link">Electronics</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+       <div class="breadcrumbs">
+          <a href="#" class='breadcrumbs__main'>Main</a>
+           <a href="#" class='breadcrumbs__page'>Apple</a>
+       </div>
+       <div class="menu-sandwich clearfix">
+                        <span class='menu-sandwich__line top'></span>
+                       <span class='menu-sandwich__line middle'></span>
+                       <span class='menu-sandwich__line bottom'></span>
+                   </div> 
+        <h1>Apple Iphone 7</h1>
+        <div class='goods-content'>
+            <div class="goods-content__left">
+                <ul class="slider-goods">
+                     <li class="bx-slider__item"><img src="img/picture1.jpg" alt="" class="slider-bx__img"></li>
+                    <li class="bx-slider__item"><img src="img/picture1.jpg" alt="" class="slider-bx__img"></li>
+                    <li class="bx-slider__item"><img src="img/picture1.jpg" alt="" class="slider-bx__img"></li>
+                    <li class="bx-slider__item"><img src="img/picture1.jpg" alt="" class="slider-bx__img"></li>
+                </ul>
+            </div>
+            <div class="goods-content__right">
+                <ul class="goods-description">
+                    <li class="goods-description__item"><span class="goods-description__type">Model</span>
+                    <span class="goods-description__value">Apple iPhone 7 </span>
+                    </li>
+                    <li class="goods-description__item"><span class="goods-description__type">Brand</span>
+                    <span class="goods-description__value">Apple</span>
+                    </li>
+                    <li class="goods-description__item"><span class="goods-description__type">Processor Speed</span>
+                    <span class="goods-description__value">2.23 Gigahertz</span>
+                    </li>
+                    <li class="goods-description__item"><span class="goods-description__type">Resolution</span>
+                    <span class="goods-description__value">1334x750</span>
+                    </li>
+                    <li class="goods-description__item"><span class="goods-description__type">Availability
+</span>
+                    <span class="goods-description__value">In stock</span>
+                    </li>
+                </ul>
+                <ul class="goods-params">
+                    <li class="goods-params__item">
+                        <span class="goods-params__name">Choose RAM Memory</span>
+                        <select name="ram" id="">
+                            <option value="0" disabled selected>32gb.</option>
+                            <option value="1">64gb</option>
+                            <option value="2">128gb</option>
+                            <option value="3">256gb</option>
+                        </select>
+                    </li>
+                    <li class="goods-params__item">
+                        <span class="goods-params__name">Choose the color</span>
+                        <div class="slider-controls">
+                            <a class='slider-controls__item red' data-slide-index='0'></a>
+                            <a class='slider-controls__item black' data-slide-index='1'></a>
+                            <a class='slider-controls__item green' data-slide-index='2'></a>
+                            <a class='slider-controls__item purple' data-slide-index='3'></a>
+                        </div>
+                    </li>
+                    <li class="goods-params__item">
+                        <span class='goods-params__name'>Item</span>
+                            <div class="count-amount">
+                                <span class="count-amount__plus"></span>
+                                <span class="count-amount__number">2</span>
+                                <span class="count-amount__minus"></span>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-tabs">
+                <ul class='content-tabs__list'>
+                    <li class='content-tabs__tab active'show-tab="description"><span>	
+Specification</span>
+                    </li>
+                    <li class='content-tabs__tab'show-tab="delivery" ><span>Shipping</span>
+                    </li>
+                    <li class='content-tabs__tab' show-tab="returns"><span>Returns</span>
+                    </li>
+                                    </ul>
+                <div class="content-tabs__item description active">
+                    <p>Apple iPhone 7 128GB Unlocked GSM 4G LTE Quad-Core Phone w/ 12MP Camera - Gold iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance. And it looks every bit as powerful as it is. This is iPhone 7. iPhone 7 reaches a new level of innovation and precision. The jet black finish is like nothing weve ever made. The enclosure is splash and water resistant. The Home button is completely reengineered.</p>
+                </div>
+                <div class="content-tabs__item delivery">
+                    <div>
+    <p>Everything you need to know to get started, including how to save with Aplle Labels, sell globally with the Global Shipping Program, impress your buyers with eBay branded supplies, and why Handling Time matters.</p></div>
+                </div>
+                <div class="content-tabs__item returns">
+                        <div>
+    <p>Items purchased at Walmart.com may be returned either to a store or by mail, unless stated otherwise in the list of exceptions below
+Items must be returned in the original manufacturer's packaging. We strongly recommend you keep your packaging for at least the first 90 days after purchase.
+Items purchased from a Marketplace retailer cannot be returned to a Walmart store or to Walmart.com; they must be returned to their Marketplace Retailer in accordance with their returns policy. Please email the Marketplace retailer directly.
+Items purchased at Walmart.com by or from dealers or resellers are not eligible for return, refund or exchange.  </p></div>
+                  </div>
+                                                
+</div>
+        
+        
+ <div class='content-product_famous'>
+                <span class='title'>Consider these popular products</span>
+                   <ul class="main-products">
+                    <li class="main-products__item">
+                       <div class="main-products__mark main-products__mark-new">
+                           <span>New</span>
+                       </div>
+                        <img class="main-products__img" src="img/parfum1.jpg" alt="">
+                        <span class="main-products__title">Nokia 3310</span>
+                        <span class="main-products__price">€69.90</span>
+                        <a href="#" class="btn btn_orange">Add to cart</a>
+                    </li>
+                        <li class="main-products__item">
+                       <div class="main-products__mark main-products__mark-new">
+                           <span>New</span>
+                       </div>
+                        <img class="main-products__img" src="img/parfum1.jpg" alt="">
+                        <span class="main-products__title">Nokia 3310</span>
+                        <span class="main-products__price">€69.90</span>
+                        <a href="#" class="btn btn_orange">Add to cart</a>
+                    </li>
+                         <li class="main-products__item">
+                       <div class="main-products__mark main-products__mark-new">
+                           <span>New</span>
+                       </div>
+                        <img class="main-products__img" src="img/parfum1.jpg" alt="">
+                        <span class="main-products__title">Nokia 3310</span>
+                        <span class="main-products__price">69.902</span>
+                        <a href="#" class="btn btn_orange">Add to cart</a>
+                    </li>
+                </ul>
+            </div>
+         </main>
+    </div>
+</div>
+ <footer>
+     <div class='main-footer'>
+         <div class='footer-content clearfix'>
+             <div class="footer-content__block">
+                 <div class="footer-content__logo" >
+                     <a href="#"><img src="img/logo.png" style='width:200px;height:50px' alt=""></a>
+                 </div>
+                  <p>&copy; 2010-2017 Compunity service</p>
+                 <div class="footer-icons">
+                  <a href="#" class='footer-icons__link'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M15.8,21.5h1.1l0.5-.2a0.8,0.8,0,0,0,.1-0.5s0-1.4.6-1.6,1.5,1.4,2.4,2a1.7,1.7,0,0,0,1.2.4H24s1.2-.1.6-1a7.9,7.9,0,0,0-1.7-2c-1.4-1.3-1.3-1.1.5-3.5s1.5-2.3,1.4-2.7a1,1,0,0,0-.9-0.3h-3l-0.2.3a15.4,15.4,0,0,1-1,2.1c-1.2,2-1.7,2.1-1.8,2s-0.3-1.2-.3-1.8,0.3-2.8-.6-3H15.6a5.7,5.7,0,0,0-2.2.2c-0.3.1-.5,0.5-0.4,0.5a1.2,1.2,0,0,1,.8.4,2.6,2.6,0,0,1,.3,1.2s0.2,2.3-.4,2.6-0.9-.2-1.9-2a16.9,16.9,0,0,1-.9-2l-0.2-.3L10.2,12H7.7l-0.5.2a0.5,0.5,0,0,0,0,.4s2,4.6,4.2,6.9a6.1,6.1,0,0,0,4.4,2h0Z"></path></svg>
+              </a>
+             <a href="#" class='footer-icons__link'>
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16.6,23.8V16.1h2.5l0.4-2.9H16.6V11.3a1.2,1.2,0,0,1,1.5-1.4h1.5V7.2H17.3A3.6,3.6,0,0,0,13.5,11v2.2H11v2.9h2.6v7.6h3.1Z"></path></svg>
+              </a>
+              <a href="#" class='footer-icons__link'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16,9.4h3.2l1.5,0.3a2.7,2.7,0,0,1,1.5,1.5,4.4,4.4,0,0,1,.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2a4.4,4.4,0,0,1-.3,1.5,2.7,2.7,0,0,1-1.5,1.5l-1.5.3H12.8l-1.5-.3a2.7,2.7,0,0,1-1.5-1.5,4.4,4.4,0,0,1-.3-1.5c0-.8,0-1.1,0-3.2s0-2.4,0-3.2a4.4,4.4,0,0,1,.3-1.5,2.7,2.7,0,0,1,1.5-1.5l1.5-.3H16M16,8H12.7a5.9,5.9,0,0,0-1.9.4,4.1,4.1,0,0,0-2.3,2.3A5.9,5.9,0,0,0,8,12.7c0,0.8,0,1.1,0,3.3s0,2.5.1,3.3a5.9,5.9,0,0,0,.4,1.9,4.1,4.1,0,0,0,2.3,2.3,5.9,5.9,0,0,0,1.9.4h6.6a5.9,5.9,0,0,0,1.9-.4,4.1,4.1,0,0,0,2.3-2.3,5.9,5.9,0,0,0,.4-1.9c0-.8,0-1.1,0-3.3s0-2.4,0-3.3a5.9,5.9,0,0,0-.4-1.9,4.1,4.1,0,0,0-2.3-2.3A5.9,5.9,0,0,0,19.3,8H16Z"></path><path d="M16,11.9A4.1,4.1,0,1,0,20.1,16,4.1,4.1,0,0,0,16,11.9h0Zm0,6.8A2.7,2.7,0,1,1,18.7,16h0A2.7,2.7,0,0,1,16,18.7Z"></path><circle cx="20.3" cy="11.7" r="1"></circle></svg>
+              </a>
+             </div>
+             </div>
+             <div class="footer-content__block">
+               <span class='footer-content__title'>CUSTOMER SERVICE</span>
+                <ul class="footer-list">
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">Contact us</a></li>
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">About us</a></li>
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">Service</a></li>
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">Delivery</a></li>
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">Media</a></li>
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">Shipping</a></li>
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">Returns</a></li>
+                    <li class="footer-list__goods"><a href="#" class="footer-list__link">Help</a></li>
+                </ul>
+                </div>
+                <div class="footer-content__block">
+                <span class="footer-content__title">Contacts</span>
+                 <a href="#" class="footer-content__address">Novoslobodskay 2,Moscow</a>
+                 <a href='#' class="footer-content__phone">+7 496 563848</a>
+                 <a href='#' class="footer-content__mail">1231111@mail.ru</a>
+                 <a href='#' class="footer-content__time">OPEN: Daily 10.00-19.00</a>
+                </div>
+            
+         </div>
+     </div>
+ </footer>   
+</body>
+</html>
