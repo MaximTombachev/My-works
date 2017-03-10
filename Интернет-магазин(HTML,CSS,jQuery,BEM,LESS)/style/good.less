@@ -36,6 +36,7 @@
 }
 
 .goods-params{
+    margin-bottom: 60px;
     &__item{
         margin-bottom:20px;
                 &:last-child{
@@ -50,30 +51,43 @@
     }
 }
 
-.slider-controls{
+.color-pager{
     display: inline-block;
-    &__item{
+    vertical-align: top;
+    &__color{
         vertical-align: top;
-        display: inline-block;
         height: 25px;
-        border-radius: 50%;
-        background: #000;
         width: 25px;
+        border-radius: 50%;
         position: relative;
+        display: inline-block;
         cursor: pointer;
-        &:after{
-          content:'';
-          display: block;
-          height: 17px;
-          border-radius: 50%;
-          border:2px solid #fff;
-          position: absolute;
-          width: 17px;
-          top:2px;
-          left:2px;
+        &.active{
+            &:before{
+            content:'';
+            height: 17px;
+            width: 17px;
+            position: absolute;
+            top:2px;
+            left:2px;
+            border: 2px solid #fff;
+            border-radius:50%;
         }
     }
-}
+        &_red{
+            background:#ef4e49;
+        } 
+        &_blue{
+            background: #5b63fe;
+        }
+        &_gold{
+            background: #f1d48a;
+        }
+        &_silver{
+            background: #c0c0c0;
+        }
+    }  
+} 
 
   
 
@@ -113,6 +127,21 @@
         }
 }
 }
+
+.good-btn{
+    .btn{
+        padding:5px 30px;
+    }
+    .btn_orange{
+        padding:5px 40px;
+    }
+}
+
+.btn_blue{
+    background: #4a95d8;
+    color:#fff;
+}
+
 
 .content-tabs{
     &.active{

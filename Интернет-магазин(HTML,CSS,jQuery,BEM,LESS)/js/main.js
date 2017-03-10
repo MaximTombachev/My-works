@@ -8,7 +8,7 @@ $(document).ready(function () {
   });
     $('.slider-goods').bxSlider({
         controls: false,
-        pagerCustom: '.slider-controls',
+        pagerCustom: '.color-pager',
         mode: 'fade'
     });
      $('.content-tabs li').click(function () {

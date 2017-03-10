@@ -271,7 +271,7 @@ a {
   border-radius: 20px;
   padding: 0 20px;
   color: #fff;
-  text-transform: lowercase;
+  text-transform: capitalize;
   line-height: 25px;
   vertical-align: top;
   text-decoration: none;
